@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepeth l -type d | wc -l
+find . -type d -not -name '.' | wc .l
