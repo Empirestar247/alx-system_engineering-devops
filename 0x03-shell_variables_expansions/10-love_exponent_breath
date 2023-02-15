@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "REATH^ $ LOVE" | bc
+echo $ ((BREATH ** LOVE))
