@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "The sum of WATER (%s) and STIR (%s) is %s in base bestchol.\n" "$WATER" "$STIR" "$result_bestchol"
