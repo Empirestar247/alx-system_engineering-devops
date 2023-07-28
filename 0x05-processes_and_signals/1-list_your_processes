@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Function to display process hierarchy
+display_process_hierarchy() {
+    echo "Process Hierarchy:"
+    pstree -U -p
+}
+
+# Function to display all running processes
+display_running_processes() {
+    echo "Currently Running Processes (user-oriented format):"
+    ps -e -o pid,user,%cpu,%mem,vsz,rss,tty,stat,start,time,cmd --forest
+}
+
+# Main script execution
+display_process_hierarchy
+echo
+display_running_processes
+
