@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Ignore ShellCheck warning SC2009 for the line below
+# shellcheck disable=SC2009
+# Function to display process list containing "bash"
+display_bash_processes() {
+    echo "Processes containing 'bash':"
+    ps -e | grep bash
+}
+
+# Main script execution
+display_bash_processes
