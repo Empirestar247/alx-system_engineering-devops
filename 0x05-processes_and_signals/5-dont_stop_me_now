@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # Find the process ID (PID) of the "4-to_infinity_and_beyond" process
-# PID=$(pgrep 4-to_infinity_and_beyond)
-#
-# # Check if the process is running
+# PID=$(pgrep 4-to_infinity_and_beyond)# Check if the process is running
 # if [ -z "$PID" ]; then
 #   echo "Process 4-to_infinity_and_beyond is not running."
 #   else
