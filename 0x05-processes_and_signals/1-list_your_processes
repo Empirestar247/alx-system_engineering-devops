@@ -16,4 +16,3 @@ display_running_processes() {
 display_process_hierarchy
 echo
 display_running_processes
-
