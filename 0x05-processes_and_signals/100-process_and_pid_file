@@ -1,34 +1,24 @@
 #!/usr/bin/env bash
-
-# Script: my_script.sh
-# # Description: This script displays the message "To infinity and beyond indefinitely"
-# #              and handles SIGINT, SIGTERM, and SIGQUIT signals appropriately.
+# Description: This script performs the following tasks:
+# #   - Creates a file /var/run/holbertonscript.pid containing the script PID.
+# #   - Displays "To infinity and beyond" indefinitely.
+# #   - Displays "I hate the kill command" upon receiving a SIGTERM signal.
+# #   - Displays "Y U no love me?!" upon receiving a SIGINT signal.
+# #   - Deletes the file /var/run/holbertonscript.pid and terminates upon
+# #     receiving a SIGQUIT or SIGTERM signal.
 #
-# # Function to handle SIGINT signal (Ctrl+C)
-# function sigint_handler() {
-#   echo "Y U no love me?!"
-#   }
+# terminator() {
+#   rm /var/run/holbertonscript.pid
+#     exit
+#     }
 #
-#   # Function to handle SIGTERM and SIGQUIT signals
-#   function sigterm_quit_handler() {
-#     echo "I hate the kill command"
-#       rm /var/run/myscript.pid
-#         exit
-#         }
+#     echo "$$" > /var/run/holbertonscript.pid
 #
-#         # Trap SIGINT signal and call sigint_handler function
-#         trap sigint_handler SIGINT
-#
-#         # Trap SIGTERM and SIGQUIT signals and call sigterm_quit_handler function
-#         trap sigterm_quit_handler SIGTERM SIGQUIT
-#
-#         # Get the PID of the current process
-#         echo $$ > /var/run/myscript.pid
-#
-#         # Infinite loop to display the message "To infinity and beyond indefinitely"
-#         while true
-#         do
-#           echo "To infinity and beyond indefinitely"
-#             sleep 2
-#             done
-#
+#     while true
+#     do
+#       echo "To infinity and beyond"
+#         sleep 2
+#           trap 'echo "Y U no love me?!"' SIGINT
+#             trap 'echo "I hate the kill command" && terminator' SIGTERM
+#               trap 'terminator' SIGQUIT
+#               do
