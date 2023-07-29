@@ -1,5 +1,5 @@
 #!/bin/bin env bash
-# A bash that disply Infinite loop and beyound indefinitly  with a sleep of 2 seconds
+# A bash that disply Infinite loop with a sleep of 2 seconds
 while true; do
     echo "To infinity and beyond"
     sleep 2
