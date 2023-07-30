@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Print a Bash script that displays Best School 10 times
-i-0
-while [ $i -le 10 ]; do
+count=1
+while [ $count -le 10 ]; do
 	echo "Best School"
-	((i++))
+	((count++))
 	done
