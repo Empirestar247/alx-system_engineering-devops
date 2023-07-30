@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Using while loop displays "Best School" 10 times
+# On the 9th iteration, displays "Hi" before "Best School".
+
+iteration=0
+
+while [ $iteration -lt 10 ]
+do
+  if [ $iteration -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( iteration++ ))
+done
