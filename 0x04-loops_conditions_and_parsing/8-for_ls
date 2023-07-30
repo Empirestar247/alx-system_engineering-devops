@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Using for loop displays:
+
+# The content of the current directory
+# In a list format
+# Only the part of the name after the first dash is displayed
+
+file_list=$(ls)
+for file in $file_list; do
+  echo "$file" | cut -d '-' -f2
+done
