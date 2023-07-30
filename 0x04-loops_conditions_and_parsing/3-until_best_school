@@ -2,7 +2,7 @@
 # Using a until loop that displays Best School 10 times.
 
 count=0
-until [$count -ge 10 ]
+until [$count -eq 10 ]
 do
 	echo "Best School"
 	((count++))
