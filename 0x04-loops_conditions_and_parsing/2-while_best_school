@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Print a Bash script that displays Best School 10 times
+# using a while loop that displays Best School 10 times
 j=0
+
 while [ $j -lt 10 ]; do
-	echo "Best School"
-	j=$((j+1))
-	done
+    echo "Best School"
+    j=$((j+1))
+done
