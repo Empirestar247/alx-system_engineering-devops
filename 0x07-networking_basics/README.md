@@ -68,3 +68,42 @@ HTTPS (HTTP Secure): Port 443
 Tool/Protocol to Check Device Connectivity:
 
 Ping is often used to check if a device is connected to a network. Ping uses the ICMP (Internet Control Message Protocol) to send echo requests to the target device and waits for an echo reply to confirm the connectivity.
+
+What is a MAC address?
+
+A MAC address (Media Access Control address) is a unique identifier assigned to network interface controllers (NICs) for communications on a physical network segment. It is a hardware address that is hardcoded into the network interface card by the manufacturer and cannot be changed.
+
+The MAC address is composed of six pairs of hexadecimal digits (0-9 and A-F), separated by colons or hyphens. For example, a MAC address may look like "00:1A:2B:3C:4D:5E."
+
+Each network device, such as a computer, smartphone, or router, has a unique MAC address. When data is transmitted over a local network (like a LAN), it uses the MAC address to identify the specific destination device to which the data should be sent. This process is essential for devices to communicate directly on the same local network.
+
+MAC addresses are used at the data link layer (Layer 2) of the OSI model and are distinct from IP addresses, which are used at the network layer (Layer 3). While IP addresses help identify devices globally on the internet, MAC addresses are only relevant within a local network segment.
+
+TCP and UDP ports
+
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are transport layer protocols that use port numbers to enable communication between applications running on devices connected to a network. Port numbers serve as endpoints for communication, allowing multiple applications to send and receive data simultaneously on the same device.
+
+Below are some commonly used TCP and UDP port numbers:
+
+**TCP Ports:**
+- HTTP: 80
+- HTTPS (HTTP Secure): 443
+- FTP (File Transfer Protocol): 20 (data), 21 (control)
+- SMTP (Simple Mail Transfer Protocol): 25
+- POP3 (Post Office Protocol version 3): 110
+- IMAP (Internet Message Access Protocol): 143
+- Telnet: 23
+- SSH (Secure Shell): 22
+- DNS (Domain Name System): 53
+- RDP (Remote Desktop Protocol): 3389
+
+**UDP Ports:**
+- DNS (Domain Name System): 53
+- DHCP (Dynamic Host Configuration Protocol): 67 (server) and 68 (client)
+- SNMP (Simple Network Management Protocol): 161
+- TFTP (Trivial File Transfer Protocol): 69
+- NTP (Network Time Protocol): 123
+
+It's important to remember that many applications and services can use different port numbers, and these are just some common examples. Port numbers are well-defined for certain standard protocols, but for other applications, they may be dynamically assigned or configurable. When setting up network services, it's crucial to be aware of the specific port numbers used by those services to ensure proper communication.
+
+The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
