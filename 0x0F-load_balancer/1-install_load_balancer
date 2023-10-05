@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install HAproxy on clean ubuntu 16.04 machine and setup to proxy requests
+# Install HAproxy on clean ubuntu 20.04 machine and setup to proxy requests
 # between web-01 and web-02.
 
 apt-get update -y && \
