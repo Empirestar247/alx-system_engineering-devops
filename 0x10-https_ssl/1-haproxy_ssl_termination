@@ -12,7 +12,6 @@ global
         ca-base /etc/ssl/certs
         crt-base /etc/ssl/private
 
-   
         tune.ssl.default-dh-param 2048
 
         # See: https://ssl-config.mozilla.org/#server=haproxy&server-version=2.0.3&config=intermediate
