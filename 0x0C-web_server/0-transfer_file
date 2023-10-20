@@ -23,12 +23,12 @@ username=$3
 path_to_ssh_key=$4
 
 # Disabling strict host key checking
- scr -o "StrictHostKeyCkecking" -i "$path_to_ssh_key" "$path_to_file" "$username$ip:~/
+ scr -o "StrictHostKeyCkecking" -i "$path_to_ssh_key" "$path_to_file" "$username@$ip:~/
  # Checking if the transfer was successful
  
- if [$? -eq o]
+ if [$? -eq 0]
  then
-	 echo "file was TRANSFERED SUCCESSFUL"
+	 echo "file was TRANSFERED SUCCESSFULLY"
  else
 	 echo "file TRANSFER FAILED"
 
