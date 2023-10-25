@@ -1,5 +1,9 @@
 # Web Stack Debugging #0 - My Debugging Journey
 
+![Docker](https://ih1.redbubble.net/image.388247602.8194/ra,unisex_tshirt,x2200,fafafa:ca443f4786,front-c,392,146,750,1000-bg,f8f8f8.jpg)
+![docker](https://www.logolynx.com/images/logolynx/b2/b249832db7d9eb07176aa5c3a73b2782.png)
+
+
 ## Table of Contents
 - [Web Stack Debugging #0 - My Debugging Journey](#web-stack-debugging-0---my-debugging-journey)
   - [Table of Contents](#table-of-contents)
