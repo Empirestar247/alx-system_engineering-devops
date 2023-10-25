@@ -1,22 +1,10 @@
 ## MySQL
+
 ![mysql](https://ap2vnoida.training/media/images/courses/mysql-training-in-noida-1.jpg)
 
-![MySQL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
+![MYSQL](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
 
-## What is Mysql?
-MySQL is an open-source relational database management system (RDBMS) that is used to manage and store structured data. It is one of the most popular and widely used database systems in the world, known for its reliability, speed, and ease of use. Here are some key characteristics and aspects of MySQL:
-
-## Relational Database: MySQL is a relational database, which means it organizes data into tables with rows and columns. This tabular structure allows for efficient data storage and retrieval.
-
-## Learning Objectives
-What is the main role of a database
-What is a database replica
-What is the purpose of a database replica
-Why database backups need to be stored in different physical locations
-What operation should you regularly perform to make sure that your database backup strategy actually works
-
-## Installation Guide for mysql 5.7.*
-
+## [How to] Install mysql 5.7
 Copy the key here to your clipboard
 
 https://dev.mysql.com/doc/refman/5.7/en/checking-gpg-signature.html
@@ -48,7 +36,7 @@ Now install mysql 5.7
 
 sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
 
-## OR FOLLOW(OPTION)
+## OR FOLLOW (OPTION2)
 
 #!/usr/bin/env bash
 sudo apt update
@@ -58,6 +46,36 @@ sudo apt-get update
 sudo apt-cache policy mysql-server
 sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
 
+## Learning Objectives
+What is the main role of a database
+What is a database replica
+What is the purpose of a database replica
+Why database backups need to be stored in different physical locations
+What operation should you regularly perform to make sure that your database backup strategy actually works
+
+## MySQL is an open-source relational database management system (RDBMS) that is used to manage and store structured data. It is one of the most popular and widely used database systems in the world, known for its reliability, speed, and ease of use. Here are some key characteristics and aspects of MySQL:
+
+1. **Relational Database:** MySQL is a relational database, which means it organizes data into tables with rows and columns. This tabular structure allows for efficient data storage and retrieval.
+
+2. **Open Source:** MySQL is distributed under an open-source license, making it freely available for use, modification, and distribution. It has a vibrant community of developers and users.
+
+3. **Cross-Platform:** MySQL is compatible with various operating systems, including Linux, Windows, macOS, and more. This cross-platform compatibility allows it to be used in a wide range of environments.
+
+4. **SQL Support:** MySQL uses Structured Query Language (SQL) for querying and managing data. It adheres to SQL standards, and developers can use SQL commands to interact with the database.
+
+5. **High Performance:** MySQL is known for its fast performance, making it suitable for applications that require rapid data processing and retrieval.
+
+6. **Scalability:** MySQL can be used for small-scale projects and can also scale to handle large, high-traffic applications. It provides features for replication, clustering, and partitioning to support scalability.
+
+7. **Security Features:** MySQL offers security features such as user authentication, access control, and data encryption to protect data stored in the database.
+
+8. **Community and Support:** MySQL has a large and active community, which means there are extensive resources, documentation, and support forums available to help users.
+
+9. **Storage Engines:** MySQL supports multiple storage engines, including InnoDB, MyISAM, and more. Each engine has its strengths and is suited for different use cases.
+
+10. **Integration:** MySQL can be easily integrated with various programming languages, frameworks, and tools, making it a popular choice for web applications, content management systems (e.g., WordPress), and other software solutions.
+
+MySQL is commonly used in conjunction with web development technologies like PHP, Python, and Ruby to store and manage data for web applications. It's a fundamental component of popular technology stacks, such as LAMP (Linux, Apache, MySQL, PHP/Perl/Python) and MEAN (MongoDB, Express.js, Angular, Node.js), among others.
 
 Project Task
 Creating a user and Granting Priviledges in mysql
