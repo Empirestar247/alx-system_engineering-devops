@@ -51,5 +51,5 @@ frontend estherdevops.tech-https
 
 backend estherdevops.tech_backend
         balance roundrobin
-        server 230350-web-01 100.26.230.254
-        server 230350-web-02 54.82.136.98
+        server 230350-web-01 54.90.57.103
+        server 230350-web-02 100.26.221.146
