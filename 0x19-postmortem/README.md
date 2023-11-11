@@ -1,9 +1,9 @@
 ## Topic:Postmortem
 
-![Postmortem](file:///C:/Users/ESTHER%20EJIMOFOR/Desktop/devops.png)
+![Postmortem](file:///C:/Users/ESTHER%20EJIMOFOR/Downloads/devopsadmin.jpg)
 
 
-![Devops](file:///C:/Users/ESTHER%20EJIMOFOR/Downloads/Devopsadmins.jpg)
+![Devops](file:///C:/Users/ESTHER%20EJIMOFOR/Desktop/devops.png)
 
 ## Postmortem
 A postmortem, in the context of DevOps and SysAdmin, refers to a retrospective analysis conducted after a significant incident, such as a system outage or a failure in the deployment process. The purpose of a postmortem is to understand the root causes of the incident, identify areas for improvement, and implement corrective actions to prevent similar issues in the future. 
