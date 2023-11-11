@@ -1,14 +1,16 @@
 ## Topic:Postmortem
 
 ![Devops](https://intelgic.com/static/img/devops.png)
+
+
 ![Postmortem](https://intelgic.com/static/img/thum_37.jpg)
 
 ## Postmortem
-# A postmortem, in the context of DevOps and SysAdmin, refers to a retrospective analysis conducted after a significant incident, such as a system outage or a failure in the deployment process. The purpose of a postmortem is to understand the root causes of the incident, identify areas for improvement, and implement corrective actions to prevent similar issues in the future. 
+A postmortem, in the context of DevOps and SysAdmin, refers to a retrospective analysis conducted after a significant incident, such as a system outage or a failure in the deployment process. The purpose of a postmortem is to understand the root causes of the incident, identify areas for improvement, and implement corrective actions to prevent similar issues in the future. 
 
 ## postmortems in the contexts of DevOps and SysAdmin:
 
-### Postmortem in DevOps:
+## Postmortem in DevOps:
 
 ## Purpose:
 Incident Analysis: Understand what went wrong during an incident.
@@ -87,10 +89,10 @@ Blame-Free Culture: Encourage a blame-free culture where the focus is on learnin
 
 Iterative Improvement: Treat postmortems as a continuous improvement process, iteratively refining processes and systems.
 
-# Automation: Emphasize the role of automation in preventing and mitigating incidents.
+### Automation: Emphasize the role of automation in preventing and mitigating incidents.
 
 ## Documentation: Maintain accurate and up-to-date documentation to aid in incident response and postmortem analyses.
 
-## Postmortems play a crucial role in building resilient systems, fostering a culture of learning, and continually improving the overall reliability and efficiency of DevOps and SysAdmin practices.
+# Postmortems play a crucial role in building resilient systems, fostering a culture of learning, and continually improving the overall reliability and efficiency of DevOps and SysAdmin practices.
 
 
