@@ -1,0 +1,21 @@
+Note: You may want to look at the following
+ page before setting the ulimit.
+http://wiki.nginx.org/coremodule:worker_rli
+Note: You may want to look at the following
+ page before setting the ulimit.
+http://wiki.nginx.org/coremodule:worker_rli
+mit_nofile
+set the ulimit variable if you need default
+s to change
+Example: ULIMIT="-n 4096"
+ULIMITS="-n 15"
+~
+~
+~
+~
+~
+~
+~
+~
+~
+                         5,15          Alli
