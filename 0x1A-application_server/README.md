@@ -8,30 +8,54 @@ Your web infrastructure is already serving web pages via Nginx that you installe
 ![Application server](https://www.rentacomputer.com/images/slides/application-server-rental.jpg)
 
 ## Web Server vs Application Server
-| Web Server                | Application Server       |
-|---------------------------|--------------------------|
-|Content Serving: Web servers primarily serve static content like HTML files, images, CSS, and JavaScript.
+                 
+## Web Server
 
-|Handling Requests: They handle HTTP requests by responding with pre-existing files.|
-|Protocols: Focus mainly on HTTP/HTTPS protocols.
-|Functionality: Limited to serving web content and basic request/response handling.
-|Examples: Apache HTTP Server, Nginx, Microsoft IIS.
-|Caching: Often incorporate caching mechanisms for performance optimization.
-|Load Balancing: Some can manage load balancing across multiple servers for scalability.
-|Security: Focus more on securing web content and connections.
-|Responsiveness: Optimized for delivering web pages quickly to clients.
-|Focus: Designed for handling web content and basic request/response protocols.   |Dynamic Content: Application servers are designed to execute dynamic, server-side code and generate dynamic content.|
-|Business Logic: Execute business logic, interact with databases, handle security, transactions, and application-specific processes.|
-|Protocols: Support various protocols beyond HTTP, depending on the applications they run e.g., TCP/IP, UDP.|
-|Functionality: Include capabilities like middleware integration, session management, load balancing, and clustering for scalability.|
-|Examples: Tomcat, JBoss, WebSphere, Node.js, Microsoft .NET-based servers.|
-|Middleware Integration: Capable of integrating with various middleware and databases for application functionality.|
-|Scalability Features: Often include features like clustering, load balancing, and failover mechanisms for scaling applications.|
-|Session Management: Manage sessions and stateful interactions between clients and the server.|
-|Security Focus: Emphasize securing application-specific functionalities and transactions.|
-|Development Environment: Provide a platform for developing and deploying complex applications.|
+1. Content Serving: Web servers primarily serve static content like HTML files, images, CSS, and JavaScript.
 
-These distinctions illustrate how web servers primarily handle static content delivery and basic HTTP requests, while application servers are tailored for executing business logic, managing databases, and supporting dynamic, application-specific functionalities in more complex web applications.
+2. Handling Requests: They handle HTTP requests by responding with pre-existing files.
+
+3. Protocols: Focus mainly on HTTP/HTTPS protocols.
+
+
+4. Functionality: Limited to serving web content and basic request/response handling.
+
+5. Focus: Designed for handling web content and basic request/response protocols.
+
+6. Responsiveness: Optimized for delivering web pages quickly to clients.
+
+7. Caching: Often incorporate caching mechanisms for performance optimization.
+
+8. Load Balancing: Some can manage load balancing across multiple servers for scalability.
+
+9. Security: Focus more on securing web content and connections.
+
+10. Examples: Apache HTTP Server, Nginx, Microsoft IIS.
+
+## Application Servers:
+
+1. Dynamic Content: Application servers are designed to execute dynamic, server-side code and generate dynamic content.
+
+2. Business Logic: Execute business logic, interact with databases, handle security, transactions, and application-specific processes.
+
+3. Protocols: Support various protocols beyond HTTP, depending on the applications they run (e.g., TCP/IP, UDP).
+
+4. Functionality: Include capabilities like middleware integration, session management, load balancing, and clustering for scalability.
+
+5. Middleware Integration: Capable of integrating with various middleware and databases for application functionality.
+
+6. Scalability Features: Often include features like clustering, load balancing, and failover mechanisms for scaling applications.
+
+7. Session Management: Manage sessions and stateful interactions between clients and the server.
+
+8. Security Focus: Emphasize securing application-specific functionalities and transactions.
+
+9. Development Environment: Provide a platform for developing and deploying complex applications.
+
+10. Examples: Tomcat, JBoss, WebSphere, Node.js, Microsoft .NET-based servers.
+ 
+
+#### These distinctions illustrate how web servers primarily handle static content delivery and basic HTTP requests, while application servers are tailored for executing business logic, managing databases, and supporting dynamic, application-specific functionalities in more complex web applications.
 
 ## Requirements
 General
